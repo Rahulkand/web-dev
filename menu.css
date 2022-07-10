@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    background-image: url("images/menu-bg.jpeg");
+}
+.container-page{
+    position: relative;
+    top: 20px;
+    width: 90%;
+    margin: auto;
+    min-height: 1100px;
+}
+.header{
+    height: 90px;
+    color: white;
+    display: flex;
+    background: black;
+    justify-content: space-between;
+    align-items: center;
+}
+.brand{
+    position: relative;
+    left: 10px;
+    letter-spacing: 3px;
+}
+.nav-bar{
+    position: sticky;
+    left: 100px;
+}
+.nav-bar ul{
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+    position: relative;
+    
+}
+.nav-bar li{
+    list-style-type: none;
+}
+.nav-bar a{
+    text-decoration: none;
+    color: white;
+    letter-spacing: 2px;
+    transition: transform 2s;
+}
+.nav-bar a:hover{
+    color: aqua;
+    transform: scale(1.1)
+}
+.btn button{
+    width: 150px;
+    height: 40px;
+    font-size: 18px;
+    
+    border: 2px white solid;
+    background: black;
+    color: white;
+}
+.btn{
+    position: relative;
+    right: 20px;
+}
+.btn button:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.toggler{
+    width: 50px;
+    height: 40px;
+    position: relative;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    display: none;
+}
+#line{
+    width: 40px;
+    height: 5px;    
+    background: white;
+    margin: 5px;
+}
+@media screen and (max-width : 900px){
+    .nav-bar{display: none;}
+    .btn{display: none;}
+    .toggler{display:flex;}
+    
+}
+.line-cross-1{
+    position: relative;
+    top: 10px;
+    transform: rotate(45deg);
+}
+.line-cross-2{
+    position: relative;
+    bottom: 4.5px;
+    transform: rotate(135deg);
+}
+.hidden{
+    width: 90%;
+    margin: auto;
+    background: black;
+    height: 190px;
+    display: none;
+}
+.nav-toggler{
+    position: relative;
+    top: 10px;
+}
+.nav-toggler li{
+    list-style-type: none;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.nav-toggler a{
+    text-decoration: none;
+    color: white;
+    letter-spacing: 2px;
+    font-size: 20px;
+
+}
+.nav-toggler a:hover{
+    color: aqua;
+    cursor: pointer;
+}
+.nav-toggler button{
+    width: 150px;
+    height: 40px;
+    font-size: 18px;
+    margin-top: 10px;
+    border: 2px white solid;
+    background: black;
+    color: white;
+    margin-left: 10px ;
+    
+}
+.nav-toggler button:hover{
+    background: white;
+    color: black;
+    
+}
+.hidden-js{
+    display: block;
+}
+.content-menu{
+    position: relative;
+    top:60px;
+    background: black;
+    min-height: 950px;
+    color: white;
+    bottom: 20px;
+    z-index: 1;
+}
+.wel-menu{
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+.cards{
+    position: relative;
+    top: 70px;
+    margin: auto;
+}
+#row img{
+    width: 300px;
+    height: 200px;
+    position:sticky;
+  
+    
+
+}
+#row img:hover{
+    animation-name: reveal;
+    animation-duration: 1s;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+    
+}
+#row{
+   display: flex;
+   justify-content: center;
+}
+#row div{
+    margin: 20px;
+    text-align: center;
+}
+#row div p{
+    position: relative;
+    z-index: -1;
+    transform: translateY(-50px);
+    color: white;
+    border: 2px white solid;
+}
+.row-3 .c-3{
+    margin-bottom: 20px;
+}
+@keyframes  reveal {
+    100%{
+        transform: translateY(-50px);
+    }
+}
+@media screen and (max-width : 1100px) {
+    #row{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    #row img{
+        width: 100%;
+        height: 300px;
+    }
+}
+.footer-1{
+    position: relative;
+    top: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background: black;
+    min-height: 120px;
+    color: white;
+    letter-spacing: 2px;
+}
+.footer-1 div{
+    padding: 10px;
+}
+.credits{
+    position: relative;
+    top: 180px;
+    color: white;
+    background: black;
+    letter-spacing: 2px;
+    font-size: 16px;
+    text-align: center;
+    height: 60px;
+    padding: 10px;
+}
+.so-icon img{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+.so-icon button{
+    background: none;
+    border: none;
+}
+.so-icon button:hover{
+    cursor: pointer;
+}
