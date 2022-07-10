@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Image{
+    background-image: url(8.jpg);
+    width: 60%;
+    height: 300px;
+    margin: auto;
+    background-size: cover;
+    position: relative;
+    top: 40px;
+    
+
+}
+.Image-2{
+    background-image: url(9.jpg);
+    width: 60%;
+    height: 300px;
+    margin: auto;
+    background-size: cover;
+    position: absolute;
+    top: 40px;
+    left: 246px;
+    display: none;
+    
+
+}
+.Image-3{
+    background-image: url(10.jpg);
+    width: 60%;
+    height: 300px;
+    margin: auto;
+    background-size: cover;
+    position: absolute;
+    top: 40px;
+    left: 246px;
+    display: none;
+    
+
+}
+.btn-frnt{
+    transform: translate(657px,142px);
+    width: 20px;
+    height: 30px;
+    border: 2px white solid;
+   
+    
+}
+.btn-back{
+    transform: translateY(107px);
+    width: 20px;
+    height: 30px;
+    border: 2px white solid;
+   
+}
+.btn-frnt-2{
+    transform: translate(657px,142px);
+    width: 20px;
+    height: 30px;
+    border: 2px white solid;
+    display: none;
+   
+    
+}
+.btn-back-2{
+    transform: translateY(107px);
+    width: 20px;
+    height: 30px;
+    border: 2px white solid;
+    display: none;
+   
+}
+.btn-frnt-3{
+    transform: translate(657px,142px);
+    width: 20px;
+    height: 30px;
+    border: 2px white solid;
+    display: block;
+    background: red;
+   
+    
+}
+.btn-back-3{
+    transform: translateY(107px);
+    width: 20px;
+    height: 30px;
+    border: 2px white solid;
+    display: none;
+   
+}
+.btn-frnt-2-js{
+    transform: translate(657px,142px);
+    width: 20px;
+    height: 30px;
+    border: 2px white solid;
+    display: block;
+   
+    
+}
+.btn-back-2-js{
+    transform: translateY(107px);
+    width: 20px;
+    height: 30px;
+    border: 2px white solid;
+    display: block;
+   
+}
+.Image-js-2{
+    background-image: url(9.jpg);
+    width: 60%;
+    height: 300px;
+    margin: auto;
+    background-size: cover;
+    position: absolute;
+    top: 40px;
+    left: 246px;
+    display: block;
+}
+.Image-js-3{
+    background-image: url(10.jpg);
+    width: 60%;
+    height: 300px;
+    margin: auto;
+    background-size: cover;
+    position: absolute;
+    top: 40px;
+    left: 246px;
+    display: block;
+}
